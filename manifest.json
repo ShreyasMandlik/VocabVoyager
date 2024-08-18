@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "VocabVoyager",
+    "version": "0.0.1",
+    "description": "VocabVoyager a helpful tool for learning new words",
+    "icons": {
+        "16": "images/vocab.png",
+        "48": "images/vocab.png",
+        "128": "images/vocab.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/vocab.png",
+            "48": "images/vocab.png",
+            "128": "images/vocab.png"
+        },
+        "default_title": "My Amazing Chrome Extension to know new words"
+    }
+}
